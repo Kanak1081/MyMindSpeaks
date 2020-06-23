@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Travel - My Mind Speaks</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/homestyles.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body >
+   
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div  class="topnav">
+      <ul class="navbar ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./health.html">Health</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lifestyle.html">Lifestyle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./food.html">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./entertainment.html">Entertainment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./travel.html">Travel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./banking.html">Banking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./education.html">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Navbar Closed-->
+
+
+  <!--Half Page Image Header-->
+  <div class="container-fluid" id=half_background_image>
+    <div>
+      <img src="data:image/jpeg;base64,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" alt="" class="d-block w-100" height="300px">
+    </div>
+  </div>
+
+
+
+  <!--Content for the HEALTH PAGE-->
+  <section class="cat_section"> 
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-md-2"></div>
+          <div class="mt-5" id="content_category">
+            <h2>Importance of Physical Fitness</h2><br><br>
+            <h3>What is Fitness?</h3>
+            <p> Fitness here does not only refer to physical fitness but mental fitness as well. If a person is physically fit but mentally unfit, he/she will not be able to function in an optimum way.
+                Mental fitness can only be achieved if your body is functioning well.
+                You can help your mind relax by exercising regularly and eating right.
+            </p>
+            <br><br>
+            <h3>The importance of Physical Fitness</h3>
+            <p>
+                Physical activity and Exercise is important for everyone especially in today's times when we are moving towards a more sedentary lifestyle.
+                Physical activity promotes good health and one should try and stay active at all times.
+      
+                Regular physical activity increases life expectancy and reduces the risk of premature mortality. Regular exercise has many benefits like it increases muscle strength, bone density, stability and flexibility.
+      
+                Exercise has been shown to improve mental health and mood and provides numerous health benefits. It improves respiratory, cardiovascular health and also overall health of a person.
+                It can also help you to maintain a healthy weight, reduce risk of heart disease etc.
+                Exercise also helps depression. It may block negative thoughts and distract you from daily worries. It also lifts your mood and improves your sleep pattern.
+            </p>
+      
+            <br><br><h3>How can you become physically fit?</h3>
+      
+            <p>
+                Becoming physically fit requires change in lifestyle as well. One needs to incorporate a regular exercise routine in one's daily schedule.
+                By avoiding junk foods, frizzy drinks, cutting down on habits like smoking and drinking alcohol and by getting adequate amount of rest, you will be on the path of becoming physically and mentally fit.
+      
+                Make sure to spend more time outdoors in the sun as it is a source of Vitamin D and also in fresh air and take part in more healthy activities like walking, running cycling, swimming and playing outdoor games to stay fit. 
+      
+                Remember, you can enjoy life only if you remain fit and healthy.
+            </p><br><br>
+          </div>
+  
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </section>    
+          
+</body>
+</html>

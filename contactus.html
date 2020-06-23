@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact - My Mind Speaks</title>
+ 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/homestyles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image: linear-gradient(to right,rgb(237, 100, 105),rgb(248, 132, 76));">
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <div  class="topnav">
+
+      <ul class="navbar">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./health.html">Health</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./lifestyle.html">Lifestyle</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./food.html">Food</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./entertainment.html">Entertainment</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./travel.html">Travel</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./banking.html">Finance</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./education.html">Education</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="./contactus.html">Contact Us</a>
+        </li>
+      </ul>
+
+    </div>
+
+    </nav>
+    <!--Navbar Closed-->
+
+
+
+
+    <!--Form-->
+  <div class="container-fluid" id=feedback_form>
+    <h1>FeedBack Form</h1>
+    <div class="p-5"></div>
+    <form>
+      <div class="form-row">
+        <label for="FirstName" class="col-sm-4 col-lg-2">First Name</label>
+        <div class="col-sm-8 col-lg-3">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <label for="LastName" class="col-sm-4 col-lg-2">Last Name</label>
+        <div class="col-sm-8 col-lg-3">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="inputEmail4" class="col-sm-4 col-lg-2">Email</label>
+        <div class="form-group col-sm-8 col-lg-3"> 
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+
+        <label for="inputPassword4" class="col-sm-4 col-lg-2">Password</label>
+        <div class="form-group col-sm-8 col-lg-3">
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+      </div>
+
+    
+      <div class="form-row">
+
+        <label for="inputCity" class="col-sm-4 col-lg-2">City</label>
+        <div class="form-group col-sm-8 col-lg-3">
+          <input type="text" class="form-control" id="inputCity" placeholder="City">
+        </div>
+
+        <label for="inputState" class="col-sm-4 col-lg-2">State</label>
+        <div class="form-group col-sm-8 col-lg-3">
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+    
+      </div>
+
+      <div class="form-row">
+        <label for="feedback" class="col-sm-4 col-lg-2">Feedback</label>
+        <div class="form-group col-sm-8 col-lg-8">
+          <textarea type="text" class="form-control" id="feedback" rows="8" placeholder="Write Something..."></textarea>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-dark">Sign in</button>
+    </form>
+  </div>
+  
+  </body>
+</html>
